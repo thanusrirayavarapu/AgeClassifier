@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const age= parseInt(prompt("enter your age in Months"))
+        if(age < 0){
+            alert("Invalid Age")
+        }
+        else if(age <= 12){
+            alert("you are a baby")
+        }
+        else if(age < 3*12){
+            alert("you are a Infant")
+        }
+        else if(age >=3*12 && age < 5*12){
+            alert("you are a toddler")
+        }
+        else if(age >=5*12 && age < 12*12){
+            alert("you are a School age child")
+        } 
+        else if(age >=10*12 && age < 13*12){
+            alert("you are a Preteen")
+        }
+        else if(age >=5*12 && age < 14*12){
+            alert("you are child")
+        }else{
+            alert("you are a Older")
+        }
+    </script>
+</body>
+</html>
